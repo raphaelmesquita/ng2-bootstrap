@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{86F05421-FBA2-47FE-8741-BB09BD08B1B6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="components\accordion.ts" />
+    <TypeScriptCompile Include="components\accordion\accordion-group.component.ts" />
+    <TypeScriptCompile Include="components\accordion\accordion.component.spec.ts" />
+    <TypeScriptCompile Include="components\accordion\accordion.component.ts" />
+    <TypeScriptCompile Include="components\accordion\accordion.module.ts" />
+    <TypeScriptCompile Include="components\alert.ts" />
+    <TypeScriptCompile Include="components\alert\alert.component.spec.ts" />
+    <TypeScriptCompile Include="components\alert\alert.component.ts" />
+    <TypeScriptCompile Include="components\alert\alert.module.ts" />
+    <TypeScriptCompile Include="components\buttons.ts" />
+    <TypeScriptCompile Include="components\buttons\button-checkbox.directive.ts" />
+    <TypeScriptCompile Include="components\buttons\button-radio.directive.ts" />
+    <TypeScriptCompile Include="components\buttons\button.directive.spec.ts" />
+    <TypeScriptCompile Include="components\buttons\buttons.module.ts" />
+    <TypeScriptCompile Include="components\carousel.ts" />
+    <TypeScriptCompile Include="components\carousel\carousel.component.spec.ts" />
+    <TypeScriptCompile Include="components\carousel\carousel.component.ts" />
+    <TypeScriptCompile Include="components\carousel\carousel.module.ts" />
+    <TypeScriptCompile Include="components\carousel\slide.component.ts" />
+    <TypeScriptCompile Include="components\collapse.ts" />
+    <TypeScriptCompile Include="components\collapse\collapse.directive.spec.ts" />
+    <TypeScriptCompile Include="components\collapse\collapse.directive.ts" />
+    <TypeScriptCompile Include="components\collapse\collapse.module.ts" />
+    <TypeScriptCompile Include="components\common.ts" />
+    <TypeScriptCompile Include="components\datepicker.ts" />
+    <TypeScriptCompile Include="components\datepicker\date-formatter.ts" />
+    <TypeScriptCompile Include="components\datepicker\datepicker-inner.component.ts" />
+    <TypeScriptCompile Include="components\datepicker\datepicker.component.ts" />
+    <TypeScriptCompile Include="components\datepicker\datepicker.module.ts" />
+    <TypeScriptCompile Include="components\datepicker\daypicker.component.ts" />
+    <TypeScriptCompile Include="components\datepicker\monthpicker.component.ts" />
+    <TypeScriptCompile Include="components\datepicker\yearpicker.component.ts" />
+    <TypeScriptCompile Include="components\dropdown.ts" />
+    <TypeScriptCompile Include="components\dropdown\dropdown-keyboard-nav.directive.ts" />
+    <TypeScriptCompile Include="components\dropdown\dropdown-menu.directive.ts" />
+    <TypeScriptCompile Include="components\dropdown\dropdown-toggle.directive.ts" />
+    <TypeScriptCompile Include="components\dropdown\dropdown.directive.spec.ts" />
+    <TypeScriptCompile Include="components\dropdown\dropdown.directive.ts" />
+    <TypeScriptCompile Include="components\dropdown\dropdown.interfaces.ts" />
+    <TypeScriptCompile Include="components\dropdown\dropdown.module.ts" />
+    <TypeScriptCompile Include="components\dropdown\dropdown.service.ts" />
+    <TypeScriptCompile Include="components\index.ts" />
+    <TypeScriptCompile Include="components\modal.ts" />
+    <TypeScriptCompile Include="components\modal\modal-backdrop.component.ts" />
+    <TypeScriptCompile Include="components\modal\modal-options.class.ts" />
+    <TypeScriptCompile Include="components\modal\modal.component.ts" />
+    <TypeScriptCompile Include="components\modal\modal.module.ts" />
+    <TypeScriptCompile Include="components\ng2-bootstrap-config.ts" />
+    <TypeScriptCompile Include="components\pagination.ts" />
+    <TypeScriptCompile Include="components\pagination\pager.component.ts" />
+    <TypeScriptCompile Include="components\pagination\pagination.component.ts" />
+    <TypeScriptCompile Include="components\pagination\pagination.module.ts" />
+    <TypeScriptCompile Include="components\position.ts" />
+    <TypeScriptCompile Include="components\progressbar.ts" />
+    <TypeScriptCompile Include="components\progressbar\bar.component.ts" />
+    <TypeScriptCompile Include="components\progressbar\progress.directive.ts" />
+    <TypeScriptCompile Include="components\progressbar\progressbar.component.ts" />
+    <TypeScriptCompile Include="components\progressbar\progressbar.module.ts" />
+    <TypeScriptCompile Include="components\rating.ts" />
+    <TypeScriptCompile Include="components\rating\rating.component.ts" />
+    <TypeScriptCompile Include="components\rating\rating.module.ts" />
+    <TypeScriptCompile Include="components\tabs.ts" />
+    <TypeScriptCompile Include="components\tabs\tab-heading.directive.ts" />
+    <TypeScriptCompile Include="components\tabs\tab.directive.ts" />
+    <TypeScriptCompile Include="components\tabs\tabs.module.ts" />
+    <TypeScriptCompile Include="components\tabs\tabset.component.spec.ts" />
+    <TypeScriptCompile Include="components\tabs\tabset.component.ts" />
+    <TypeScriptCompile Include="components\timepicker.ts" />
+    <TypeScriptCompile Include="components\timepicker\timepicker.component.ts" />
+    <TypeScriptCompile Include="components\timepicker\timepicker.module.ts" />
+    <TypeScriptCompile Include="components\tooltip.ts" />
+    <TypeScriptCompile Include="components\tooltip\tooltip-container.component.ts" />
+    <TypeScriptCompile Include="components\tooltip\tooltip-options.class.ts" />
+    <TypeScriptCompile Include="components\tooltip\tooltip.directive.ts" />
+    <TypeScriptCompile Include="components\tooltip\tooltip.module.ts" />
+    <TypeScriptCompile Include="components\typeahead.ts" />
+    <TypeScriptCompile Include="components\typeahead\latin-map.ts" />
+    <TypeScriptCompile Include="components\typeahead\typeahead-container.component.ts" />
+    <TypeScriptCompile Include="components\typeahead\typeahead-options.class.ts" />
+    <TypeScriptCompile Include="components\typeahead\typeahead-utils.ts" />
+    <TypeScriptCompile Include="components\typeahead\typeahead.directive.ts" />
+    <TypeScriptCompile Include="components\typeahead\typeahead.module.ts" />
+    <TypeScriptCompile Include="components\utils\components-helper.service.ts" />
+    <TypeScriptCompile Include="components\utils\facade\browser.ts" />
+    <TypeScriptCompile Include="components\utils\utils.class.ts" />
+    <TypeScriptCompile Include="demo\app.component.ts" />
+    <TypeScriptCompile Include="demo\components\accordion-section.ts" />
+    <TypeScriptCompile Include="demo\components\accordion\accordion-demo.ts" />
+    <TypeScriptCompile Include="demo\components\alert-section.ts" />
+    <TypeScriptCompile Include="demo\components\alert\alert-demo.ts" />
+    <TypeScriptCompile Include="demo\components\buttons-section.ts" />
+    <TypeScriptCompile Include="demo\components\buttons\buttons-demo.ts" />
+    <TypeScriptCompile Include="demo\components\carousel-section.ts" />
+    <TypeScriptCompile Include="demo\components\carousel\carousel-demo.ts" />
+    <TypeScriptCompile Include="demo\components\collapse-section.ts" />
+    <TypeScriptCompile Include="demo\components\collapse\collapse-demo.ts" />
+    <TypeScriptCompile Include="demo\components\datepicker-section.ts" />
+    <TypeScriptCompile Include="demo\components\datepicker\datepicker-demo.ts" />
+    <TypeScriptCompile Include="demo\components\demo-section.ts" />
+    <TypeScriptCompile Include="demo\components\dropdown-section.ts" />
+    <TypeScriptCompile Include="demo\components\dropdown\dropdown-demo.ts" />
+    <TypeScriptCompile Include="demo\components\getting-started\getting-started.ts" />
+    <TypeScriptCompile Include="demo\components\index.ts" />
+    <TypeScriptCompile Include="demo\components\main-menu\main-menu.component.ts" />
+    <TypeScriptCompile Include="demo\components\main-menu\search-filter.pipe.ts" />
+    <TypeScriptCompile Include="demo\components\modal-section.ts" />
+    <TypeScriptCompile Include="demo\components\modal\modal-demo.ts" />
+    <TypeScriptCompile Include="demo\components\pagination-section.ts" />
+    <TypeScriptCompile Include="demo\components\pagination\pagination-demo.ts" />
+    <TypeScriptCompile Include="demo\components\progressbar-section.ts" />
+    <TypeScriptCompile Include="demo\components\progressbar\progressbar-demo.ts" />
+    <TypeScriptCompile Include="demo\components\rating-section.ts" />
+    <TypeScriptCompile Include="demo\components\rating\rating-demo.ts" />
+    <TypeScriptCompile Include="demo\components\tabs-section.ts" />
+    <TypeScriptCompile Include="demo\components\tabs\tabs-demo.ts" />
+    <TypeScriptCompile Include="demo\components\timepicker-section.ts" />
+    <TypeScriptCompile Include="demo\components\timepicker\timepicker-demo.ts" />
+    <TypeScriptCompile Include="demo\components\tooltip-section.ts" />
+    <TypeScriptCompile Include="demo\components\tooltip\tooltip-demo.ts" />
+    <TypeScriptCompile Include="demo\components\top-menu\top-menu.component.ts" />
+    <TypeScriptCompile Include="demo\components\typeahead-section.ts" />
+    <TypeScriptCompile Include="demo\components\typeahead\typeahead-demo.ts" />
+    <TypeScriptCompile Include="demo\custom-typings.d.ts" />
+    <TypeScriptCompile Include="demo\index.ts" />
+    <TypeScriptCompile Include="demo\ng2-bootstrap-demo.module.ts" />
+    <TypeScriptCompile Include="demo\polyfills.ts" />
+    <TypeScriptCompile Include="demo\router.config.ts" />
+    <TypeScriptCompile Include="demo\vendor.ts" />
+    <TypeScriptCompile Include="ng2-bootstrap.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".ng2-config.js" />
+    <Content Include="components\accordion\readme.md" />
+    <Content Include="components\accordion\title.md" />
+    <Content Include="components\alert\readme.md" />
+    <Content Include="components\alert\title.md" />
+    <Content Include="components\buttons\readme.md" />
+    <Content Include="components\buttons\title.md" />
+    <Content Include="components\carousel\readme.md" />
+    <Content Include="components\carousel\title.md" />
+    <Content Include="components\collapse\readme.md" />
+    <Content Include="components\collapse\title.md" />
+    <Content Include="components\datepicker\readme.md" />
+    <Content Include="components\datepicker\title.md" />
+    <Content Include="components\dropdown\readme.md" />
+    <Content Include="components\dropdown\title.md" />
+    <Content Include="components\modal\readme.md" />
+    <Content Include="components\modal\title.md" />
+    <Content Include="components\pagination\readme.md" />
+    <Content Include="components\pagination\title.md" />
+    <Content Include="components\progressbar\readme.md" />
+    <Content Include="components\progressbar\title.md" />
+    <Content Include="components\rating\readme.md" />
+    <Content Include="components\rating\title.md" />
+    <Content Include="components\tabs\readme.md" />
+    <Content Include="components\tabs\title.md" />
+    <Content Include="components\timepicker\readme.md" />
+    <Content Include="components\timepicker\title.md" />
+    <Content Include="components\tooltip\readme.md" />
+    <Content Include="components\tooltip\title.md" />
+    <Content Include="components\typeahead\readme.md" />
+    <Content Include="components\typeahead\title.md" />
+    <Content Include="demo\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="demo\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="demo\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="demo\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="demo\components\getting-started\dependencies.md" />
+    <Content Include="demo\components\getting-started\installation.md" />
+    <Content Include="demo\components\getting-started\reading-documentation.md" />
+    <Content Include="demo\getting-started.md" />
+    <Content Include="gulpfile.js" />
+    <Content Include="karma.conf.js" />
+    <Content Include="protractor.conf.js" />
+    <Content Include="spec-bundle.js" />
+    <Content Include="typedoc.js" />
+    <Content Include="webpack.config.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".config\bundle-system.js" />
+    <Content Include="demo\assets\css\glyphicons.css" />
+    <Content Include="demo\assets\css\prettify-angulario.css" />
+    <Content Include="demo\assets\css\style.css" />
+    <Content Include="demo\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="demo\assets\images\active.svg" />
+    <Content Include="demo\assets\images\anactive.svg" />
+    <Content Include="demo\assets\images\bar-doc.png" />
+    <Content Include="demo\assets\images\border-dot.png" />
+    <Content Include="demo\assets\images\link-doc.png" />
+    <Content Include="demo\assets\images\logo.png" />
+    <Content Include="demo\assets\images\menu-left.svg" />
+    <Content Include="demo\assets\images\menu-right.svg" />
+    <Content Include="demo\assets\images\repa-down.png" />
+    <Content Include="demo\assets\images\repa-up.png" />
+    <Content Include="demo\assets\images\search-doc.png" />
+    <Content Include="demo\assets\js\prettify.min.js" />
+    <Content Include="demo\components\accordion\accordion-demo.html" />
+    <Content Include="demo\components\alert\alert-demo.html" />
+    <Content Include="demo\components\buttons\buttons-demo.html" />
+    <Content Include="demo\components\carousel\carousel-demo.html" />
+    <Content Include="demo\components\collapse\collapse-demo.html" />
+    <Content Include="demo\components\datepicker\datepicker-demo.html" />
+    <Content Include="demo\components\datepicker\not-yet-supported.html" />
+    <Content Include="demo\components\demo-section.template.html" />
+    <Content Include="demo\components\dropdown\dropdown-demo.html" />
+    <Content Include="demo\components\dropdown\not-yet-supported.html" />
+    <Content Include="demo\components\getting-started\getting-started.template.html" />
+    <Content Include="demo\components\main-menu\main-menu.template.html" />
+    <Content Include="demo\components\modal\modal-demo.html" />
+    <Content Include="demo\components\pagination\pagination-demo.html" />
+    <Content Include="demo\components\progressbar\progressbar-demo-bs4.html" />
+    <Content Include="demo\components\progressbar\progressbar-demo.html" />
+    <Content Include="demo\components\rating\rating-demo.html" />
+    <Content Include="demo\components\tabs\tabs-demo.html" />
+    <Content Include="demo\components\timepicker\timepicker-demo.html" />
+    <Content Include="demo\components\tooltip\tooltip-demo.html" />
+    <Content Include="demo\components\top-menu\top-menu.template.html" />
+    <Content Include="demo\components\typeahead\typeahead-demo.html" />
+    <Content Include="demo\demo.template.html" />
+    <Content Include="demo\favicon.ico" />
+    <Content Include="demo\index-bs4.html" />
+    <Content Include="demo\index.html" />
+    <Content Include="gulp-tasks\lint.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".editorconfig" />
+    <Content Include=".eslintrc.json" />
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include=".npmignore" />
+    <Content Include=".travis.yml" />
+    <Content Include="CHANGELOG.md" />
+    <Content Include="LICENSE" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="tsconfig.json" />
+    <Content Include="tsconfig.publish.json" />
+    <Content Include="tslint.json" />
+    <Content Include="typings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.config" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ng2_bootstrap</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57187</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57187/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>
